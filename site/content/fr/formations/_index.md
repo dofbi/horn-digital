@@ -30,7 +30,10 @@ Ce programme a pour but de donner à chaque apprenant(e) une base de connaissanc
 
 Les cours sont dispensés par le Centre de Technologie et d'Innovation pour le Développement (CTID) et le contenu (théorie et pratique) est consolidé et accessible à partir d'une plateforme en ligne.
 
-**Le programme comprend un cours de 4 mois + un stage de 2 mois dans une entreprise partenaire.**
+**Le programme de formation est réparti comme suit:**
+* 2 mois de formation à raison de 2h de cours par jour (80h)
+* 1 mois d’accompagnement pour la réalisation de projet de fin de formation
+* 1 mois de renforcement de capacités pour obtenir un stage
 
 ### Session DEV-WEB
 
@@ -162,10 +165,10 @@ Les cours sont dispensés par le Centre de Technologie et d'Innovation pour le D
 {{% blocks/section type="section" color="info" %}}
 ## Inscriptions
 
-Les inscriptions sont destinées aux jeunes :
-* à 40% vers des jeunes de moins de 25 ans à la recherche d’emplois et sans diplômes
-* à 30% vers les personnes à besoins spéciaux
-* à 30% vers les femmes, trop souvent très minoritaires dans les métiers du numérique
+Les inscriptions sont destinées à :
+* 40% de jeunes de moins de 25 ans à la recherche d’emplois et sans diplômes
+* 30% de personnes à besoins spéciaux
+* 30% de femmes, trop souvent minoritaires dans les métiers du numérique
 
 {{% /blocks/section %}}
 
