@@ -1,0 +1,36 @@
+{{ $links := .Site.Params.links }}
+{{ $image1 := (.Page.Resources.ByType "image").GetMatch "featured-1*" }}
+{{ $image1 := $image1.Fill "600x400 q50" }}
+{{ $image2 := (.Page.Resources.ByType "image").GetMatch "featured-2*" }}
+{{ $image2 := $image2.Fill "600x400 q50" }}
+{{ $image3 := (.Page.Resources.ByType "image").GetMatch "featured-3*" }}
+{{ $image3 := $image3.Fill "600x400 q50" }}
+
+<section class="row td-box td-box--4 td-box--gradient td-box--height-auto linkbox">
+  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+  <img style="max-width: 100%; width: auto; height: auto;" src="{{ $image1.RelPermalink }}">
+  <h2>Recruter des Talents Tech</h2>		
+  <p>Engager des jeunes formés à l'utilisation de WebDev / DevOps / AdminSys ayant des compétences en matière du numérique. Faites le premier pas pour recruter des programmeurs et développeurs désireux de travailler pour votre entreprise et de grandir avec vous !</p>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <img style="max-width: 100%; width: auto; height: auto;" src="{{ $image2.RelPermalink }}">
+    <h2>Personnaliser la formation à vos besoins</h2>
+    <p>Proposer des projets de votre entreprise et demandez à votre personnel de partager leurs connaissances par le biais de MasterClasses.</p>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+  <img style="max-width: 100%; width: auto; height: auto;" src="{{ $image3.RelPermalink }}">
+  <h2>Responsabilité sociale</h2>
+  <p>Faire partie d'un réseau d'entreprise socialement responsable à Djibouti, en promouvant l'enseignement technologique
+comme vecteur d'égalité et de développement économique.
+</div>
+</section>
+
+{{ define "community-links-list" }}
+<ul>
+ {{ range . }}
+ <li title="{{ .name }}">
+   <a target="_blank" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}:</a> {{ .desc }}
+ </li>
+  {{ end }}
+</ul>
+{{ end }}

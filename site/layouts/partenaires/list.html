@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<section class="row td-box td-box--1 position-relative td-box--gradient td-box--height-auto">
+	<div class="container text-center">
+		<span class="h4 mb-0">
+<h1>Devenez partenaire de {{ .Site.Title }}</h1>
+
+<p>Former et recruter vos futurs collaborateurs spécialisés dans le digital</p>
+
+<p>Envoyer votre candidature pour devenir partenaire avant le <b class="text-secondary">28 Février 2021</b></p>
+
+</span>
+	</div>
+</section>
+
+<div class="row td-box td-box--2 position-relative td-box--gradient td-box--height-auto">
+    <div class="container text-center td-arrow-down">
+        <h2>Pourquoi Soutenir ce Projet ?</h2>
+    </div>
+</div>
+
+{{ partial "community_links.html" . }}
+
+<div class="td-content">
+{{ .Content }}
+</div>
+
+{{ end }}
