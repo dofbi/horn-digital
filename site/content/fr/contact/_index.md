@@ -19,7 +19,7 @@ Pour candidater facilement, vous pouvez  remplir directement le formulaire ci-de
 
   <i class="fas fa-envelope"></i> ctid.djibouti@gmail.com\
   <i class="fas fa-map-marker-alt"></i> Rue Bourhan Bey, Djibouti Ville\
-  <i class="fas fa-phone-alt"></i> Télèphone : +253 77 53 36 34 / +253 21 25 02 95
+  <i class="fas fa-phone-alt"></i> Télèphone : +253 21 25 02 95
 
 {{% /blocks/section %}}
 
